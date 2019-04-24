@@ -16,7 +16,7 @@ bootsvar <- numeric(100000)
 for (i in 1:99){
   s = i+1
   for (j in 1:100000){
-    y <- sample(na.omit(mpnd$abrentes), size = s, replace = T)
+    y <- sample(na.omit(data$site), size = s, replace = T)
     vary <- var(y)
     bootsvar[j] = mean(vary)
   }

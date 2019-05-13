@@ -2,7 +2,7 @@
 #timber equipment production data
 #note: locations have been changed to "site" for confidentiality reasons. The sites
 #are in the same order as the excel workbook. 
-
+# this is no longer used 
 #####data######
 mpnd <- read.csv(file.choose()) #for mean production without delay
 #attach(mpnd)

@@ -82,3 +82,4 @@ abline(var(mpnd$abrantes.mpnd), 0, col="green")
 legend("topright", legend=c("actual variance", "68% CI", "95% CI", "99% CI"),
        col=c("green", "orange", "peru", "red"), lty=1:2, cex=0.8)
 
+#####no longer used#####
